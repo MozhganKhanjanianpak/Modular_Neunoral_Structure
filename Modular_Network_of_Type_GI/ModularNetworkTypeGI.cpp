@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////
-// Code for creating a Madular random network of type GI
+// Code for creating a Modular random network of type GI
 /////////////////////////////////////////////////////////////////
 
 #include <iostream>
@@ -26,9 +26,9 @@ int    A[N][N] = {0};  // Adjacency Matrix layer Exc
 /********************************************/
 int main()
 {
- ofstream outputAdjMat("./MadularAdjMatTypeGI.txt");
+ ofstream outputAdjMat("./ModularAdjMatTypeGI.txt");
  ofstream outputBlockNodes("./BlockNodesNumberTypeGI.txt");
- ofstream outputAdjList("./MadularAdjListTypeGI.txt");
+ ofstream outputAdjList("./ModularAdjListTypeGI.txt");
  
  outputBlockNodes <<  Block << "\t" << N << "\t" << 0 << "\t" << 0 << endl;
 
