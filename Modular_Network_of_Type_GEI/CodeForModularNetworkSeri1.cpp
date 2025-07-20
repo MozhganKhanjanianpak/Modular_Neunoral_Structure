@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////
 // Implementation code for Modular netwok for Seri1: 0.1 < eta < 1
-// For each type of madular network, import that type
+// For each type of modular network, import that type
 // in input_file_blocks and input_file
 ////////////////////////////////////////////////
 using namespace std;
