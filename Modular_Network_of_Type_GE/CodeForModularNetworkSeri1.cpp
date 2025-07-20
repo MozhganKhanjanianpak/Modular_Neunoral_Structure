@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////
-// Implementation code for Madular netwok for Seri1: 0.1 < eta < 1
-// For each type of madular network, import that type
+// Implementation code for Modular netwok for Seri1: 0.1 < eta < 1
+// For each type of modular network, import that type
 // in input_file_blocks and input_file
 ////////////////////////////////////////////////
 using namespace std;
@@ -64,7 +64,7 @@ int main()
     
     //-----------------------------------------------
     // INPUT; the adjacency matrix A    
-    ifstream input_file("./MadularAdjListTypeGE.txt"); 
+    ifstream input_file("./ModularAdjListTypeGE.txt"); 
     int n1,n2,n3,i,j,k;
  	input_file >> n1 >> n2 >> n3 ;
  	for (int counter=0; counter<n2; counter++){
