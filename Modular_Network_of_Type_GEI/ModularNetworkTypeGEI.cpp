@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////
-// Code for creating a Madular random network of type GEI
+// Code for creating a Modular random network of type GEI
 /////////////////////////////////////////////////////////////////
 
 #include <iostream>
@@ -25,9 +25,9 @@ int    A[N][N] = {0};  // Adjacency Matrix layer Exc
 /********************************************/
 int main()
 {
- ofstream outputAdjMat("./MadularAdjMatTypeGEI.txt");
+ ofstream outputAdjMat("./ModularAdjMatTypeGEI.txt");
  ofstream outputBlockNodes("./BlockNodesNumberTypeGEI.txt");
- ofstream outputAdjList("./MadularAdjListTypeGEI.txt");
+ ofstream outputAdjList("./ModularAdjListTypeGEI.txt");
 
  outputBlockNodes <<  Block << "\t" << N << "\t" << 0 << "\t" << 0 << endl;
 
